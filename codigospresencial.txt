@@ -24,3 +24,20 @@
 	GRANT ALL PRIVILEGES * . * TO 'villarlamp'@'localhost';
 	flush privileges;
    18  mysql -u villarlamp -p
+   
+   //CONFIGURACION DEL php
+
+   cd /var/www/html
+   pasamos a ejecutar los siguientes comando y configurar
+   sudo nano index.php
+   sudo nano add.php
+   sudo nano config.php
+   sudo nano delete.php
+   sudo nano edit.php
+   y al momento de terminarlo en el codigo
+
+   sudo nano config.php
+
+   en las ultimas 2 lineas donde nos saldra ("lamp_user") va nuestro usuario en mi caso es Villarlamp 
+   y en la contraseña que nos aparecera ("lamp_password) va nuestro contraseña que es "villar145"
+   y eso seria todo.
